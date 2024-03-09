@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+main{
+    overflow: hidden;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 15px;
+  word-spacing: 7px;
+}
+
+#logo{
+    background-image: url('./assets/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 530px;
+    height: 110px;
+    margin:auto;
+    margin-top: 25px;
+}
+
+.top-left-symbol{
+    background-image: url('./assets/top-loeft-symbol.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    visibility: hidden;
+}
+
+.top-right-symbol{
+    background-image: url('./assets/top-right-symbol.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top:50px;
+    right: 0px;
+    visibility: hidden;
+}
+
+.soundwave{
+    background-image: url('./assets/soundwave-with-black.png');
+    background-position: left;
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    
+}
+
+.soundwave h2{
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 0;
+    font-size: 28px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and ( min-width: 700px
+){
+.top-left-symbol, .top-right-symbol {
+     visibility: visible;}
+}
+    
