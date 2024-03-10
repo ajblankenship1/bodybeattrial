@@ -100,23 +100,29 @@ margin-bottom: 10px;
 
 .edge-pixels-left{
     background-image: url('./assets/80x40pixels.png');
-    background-position: left;
+    background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 80px;
     height: 55px;
     position: absolute;
+    top: 0px;
+    left:0px;
+    visibility: hidden;
 
    
 }
 .edge-pixels-right{
     background-image: url('./assets/80x40pixels.png');
-    background-position: right;
+    background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 80px;
     height: 55px;
+    top:0px;
+    right:0px;
     position: absolute;
+    visibility: hidden;
     
    
 }
@@ -126,6 +132,8 @@ margin-bottom: 10px;
     background: rgb(255,145,77);
     background: linear-gradient(90deg, rgba(255,145,77,1) 10%, rgba(255,222,89,1) 50%, rgba(255,145,77,1) 90%);
     width: 100%;
+    padding-top: 20px;
+    position:relative;
 }
 
 .glossary-background h4{
@@ -135,7 +143,8 @@ margin-bottom: 10px;
   text-align: center;
   font-size: large;
   word-spacing: 8px;
-  letter-spacing: 3px
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 
 #symbols{
@@ -145,7 +154,7 @@ margin-bottom: 10px;
 
 #glossary .symbol {
     color: rgb(0, 0, 0);
-    font-size: 72px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -154,7 +163,7 @@ margin-bottom: 10px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 2px;
 }
 
@@ -174,13 +183,29 @@ margin-bottom: 10px;
 
 
 
-
-
-
-
-@media only screen and ( min-width: 700px
-){
-.top-left-symbol, .top-right-symbol {
-     visibility: visible;}
+@media only screen and (min-width:500px){
+    #glossary .symbol {
+        font-size: 50px;
+        padding: 0 15px;
+    }
+}
+@media only screen and (min-width:600px){
+    .edge-pixels-right, .edge-pixels-left {
+        visibility: visible;
+    }
+}
+@media only screen and ( min-width: 700px){
+    .top-left-symbol, .top-right-symbol {
+        visibility: visible;
+    }
 }
     
+@media only screen and ( min-width: 900px){
+    .edge-pixels-right, .edge-pixels-left {
+        width: 120px;
+    }
+    #glossary .symbol {
+        font-size: 72px;
+        padding: 0 20px;
+    }
+}
