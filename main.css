@@ -126,7 +126,6 @@ margin-bottom: 10px;
     background: rgb(255,145,77);
     background: linear-gradient(90deg, rgba(255,145,77,1) 10%, rgba(255,222,89,1) 50%, rgba(255,145,77,1) 90%);
     width: 100%;
-    height: 115px;
 }
 
 .glossary-background h4{
@@ -144,7 +143,7 @@ margin-bottom: 10px;
     justify-content: center;
 }
 
-#glossary .symbol-1{
+#glossary .symbol {
     color: rgb(0, 0, 0);
     font-size: 72px;
     font-family: "Poppins", sans-serif;
@@ -155,60 +154,13 @@ margin-bottom: 10px;
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    margin: 2px;
-    padding: 0 20px;
-}
-#glossary .symbol-2{
-    color: rgb(0, 0, 0);
-    font-size: 72px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
     padding: 0 20px;
     margin: 2px;
-   
-}
-#glossary .symbol-3{
-    color: rgb(0, 0, 0);
-    font-size: 72px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    padding: 0 20px;
-}
-#glossary .symbol-4{
-    color: rgb(0, 0, 0);
-    font-size: 72px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    padding: 0 20px;
-}
-#glossary .symbol-5{
-    color: rgb(0, 0, 0);
-    font-size: 72px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: inline-block;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    padding: 0 20px;
 }
 
+#glossary .symbol-2 {
+    padding: 0 10px;
+}
 
 
 
