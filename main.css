@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
     background-color: #000000;
 }
 
@@ -69,10 +71,143 @@ h2{
     text-align: center;
     padding: 45px 0;
     font-size: 28px;
-    
-
+    margin-bottom: 10px;
 }
 
+#page-info h3{
+color: #ea852e;
+text-align: center;
+font-size: 16.9px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+
+#soundbar{
+    background-image: url(./assets/Untitled\ design\ \(8\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 175px;
+}
+
+#soundbar iframe{
+    margin: auto;
+    display: block;
+}
+
+.edge-pixels-left{
+    background-image: url('./assets/80x40pixels.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+
+   
+}
+.edge-pixels-right{
+    background-image: url('./assets/80x40pixels.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    
+   
+}
+
+
+.glossary-background{
+    background: rgb(255,145,77);
+    background: linear-gradient(90deg, rgba(255,145,77,1) 10%, rgba(255,222,89,1) 50%, rgba(255,145,77,1) 90%);
+    width: 100%;
+    height: 115px;
+}
+
+.glossary-background h4{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: large;
+  word-spacing: 8px;
+  letter-spacing: 3px
+}
+
+#symbols{
+    display: flex;
+    justify-content: center;
+}
+
+#glossary .symbol-1{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+    padding: 0 20px;
+}
+#glossary .symbol-2{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0 20px;
+    margin: 2px;
+   
+}
+#glossary .symbol-3{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0 20px;
+}
+#glossary .symbol-4{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0 20px;
+}
+#glossary .symbol-5{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0 20px;
+}
 
 
 
