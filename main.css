@@ -173,7 +173,11 @@ margin-bottom: 10px;
 
 
 
-
+.definitions{
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 4s;
+}
 
 
 
