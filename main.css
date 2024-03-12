@@ -252,7 +252,63 @@ margin-bottom: 10px;
     max-width: 700px;
     width: 100%;
     margin: auto;
+}
 
+#center-column h1{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+#center-column h2 {
+    font-size: 20px;
+}
+.glow {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: #ffdbe5;
+    letter-spacing: 8px;
+    word-spacing: 8px; 
+}
+.workout-info{
+    letter-spacing: 1px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #ffdbe5;
+    font-size: 15px;
+}
+
+  
+#flexbox{
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+#left-bar{
+    display: flex;
+    background-image: url('./assets/part-big-left.png');
+    width: 18%;
+    justify-content: center;
+    background-position-x: center ;
+}
+
+#center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/back-blocks.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    width: 64%;
+    min-width: 280px;
+}
+#right-bar{
+    background-image: url('./assets/part-big-right.png');
+    width: 18%;
+    background-position-x: right; 
 }
 
 
@@ -283,5 +339,15 @@ margin-bottom: 10px;
     #glossary .symbol {
         font-size: 72px;
         padding: 0 20px;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
