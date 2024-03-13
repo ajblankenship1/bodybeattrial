@@ -35,6 +35,7 @@ document.querySelector("#overview-tile").addEventListener("click",() => {
    if (overPopbox.checkVisibility()){
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
     }
     else{
         overPopbox.style.display = "flex";
@@ -65,6 +66,7 @@ document.querySelector("#warmup-tile").addEventListener("click", () =>{
     if(warmPopbox.checkVisibility()){
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
     }
     else{
         warmPopbox.style.display = "flex";
@@ -94,6 +96,7 @@ document.querySelector("#c1-tile").addEventListener("click", () =>{
     if(cOnePopbox.checkVisibility()){
         cOnePopbox.style.display = "none";
         cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
     }
     else{
         cOnePopbox.style.display = "flex";
@@ -123,6 +126,7 @@ document.querySelector("#c2-tile").addEventListener("click", ()=>{
     if(cTwoPopbox.checkVisibility()){
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
     }
     else{
         cTwoPopbox.style.display = "flex";
@@ -153,6 +157,7 @@ document.querySelector("#c3-tile").addEventListener("click", ()=>{
     if(cThreePopbox.checkVisibility()){
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%"
     }
     else{
         cThreePopbox.style.display = "flex";
@@ -183,6 +188,7 @@ document.querySelector("#cooldown-tile").addEventListener("click", () =>{
     if(coolPopbox.checkVisibility()){
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
     else{
         coolPopbox.style.display = "flex";

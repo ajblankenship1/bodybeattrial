@@ -351,6 +351,7 @@ margin-bottom: 10px;
         align-self: center;
         
     }
+    
      .popbox{
         display: none;
         flex-direction: column;
@@ -401,6 +402,7 @@ margin-bottom: 10px;
         width: 60%;
         height:auto;
         border-style:dotted;
+        
     }
     
     .exercise-videos button{
@@ -453,10 +455,9 @@ margin-bottom: 10px;
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 1px 1px 5px #fff, 1px 1px 10px #fff, 1px 1px 20px #e60073, 1px 1px 25px #e60073, 1px 1px 30px #e60073;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
     }
-    
-    to {
-      text-shadow: 1px 1px 12px #fff, 1px 1px 17px #ff4da6, 1px 1px 22px #ff4da6, 1px 1px 27px #ff4da6, 1px 1px 35px #ff4da6;
-    }
-}
