@@ -21,7 +21,7 @@ let overPopbox = document.querySelector(".over-pop");
     let warmPopbox = document.querySelector(".warm-pop");
     let warmButton = document.querySelector("#warmup-tile");
     let cOnePopbox = document.querySelector(".c1-pop");
-    let cOnebutton = document.querySelector("#c1-tile");
+    let cOneButton = document.querySelector("#c1-tile");
     let cTwoPopbox = document.querySelector(".c2-pop");
     let cTwoButton = document.querySelector("#c2-tile");
     let cThreePopbox = document.querySelector(".c3-pop");
@@ -34,23 +34,29 @@ document.querySelector("#overview-tile").addEventListener("click",() => {
   
    if (overPopbox.checkVisibility()){
         overPopbox.style.display = "none";
-       overButton.style.backgroundColor = "#d6476b";
+        overButton.style.backgroundColor = "#d6476b";
     }
     else{
         overPopbox.style.display = "flex";
         overButton.style.backgroundColor = "#1f8aa2";
         overButton.style.width = "100%";
 
+      
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%"
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
 })
 
@@ -67,14 +73,19 @@ document.querySelector("#warmup-tile").addEventListener("click", () =>{
 
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%"
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
 })
 
@@ -82,23 +93,28 @@ document.querySelector("#c1-tile").addEventListener("click", () =>{
     
     if(cOnePopbox.checkVisibility()){
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
     }
     else{
         cOnePopbox.style.display = "flex";
-        cOnebutton.style.backgroundColor = "#1f8aa2";
+        cOneButton.style.backgroundColor = "#1f8aa2";
         cOneButton.style.width = "100%";
 
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%"
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
 })
 
@@ -113,16 +129,22 @@ document.querySelector("#c2-tile").addEventListener("click", ()=>{
         cTwoButton.style.backgroundColor = "#1f8aa2";
         cTwoButton.style.width = "100%";
 
+
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%"
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
 })
 
@@ -136,19 +158,25 @@ document.querySelector("#c3-tile").addEventListener("click", ()=>{
         cThreePopbox.style.display = "flex";
         cThreeButton.style.backgroundColor = "#1f8aa2";
         cThreeButton.style.width = "100%";
+       
 
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
         coolPopbox.style.display = "none";
         coolButton.style.backgroundColor = "#d6476b";
+        coolButton.style.width = "80%";
     }
-})
+    })
 
 document.querySelector("#cooldown-tile").addEventListener("click", () =>{
 
@@ -163,13 +191,18 @@ document.querySelector("#cooldown-tile").addEventListener("click", () =>{
 
         overPopbox.style.display = "none";
         overButton.style.backgroundColor = "#d6476b";
+        overButton.style.width = "80%"
         warmPopbox.style.display = "none";
         warmButton.style.backgroundColor = "#d6476b";
+        warmButton.style.width = "80%"
         cOnePopbox.style.display = "none";
-        cOnebutton.style.backgroundColor = "#d6476b";
+        cOneButton.style.backgroundColor = "#d6476b";
+        cOneButton.style.width = "80%"
         cTwoPopbox.style.display = "none";
         cTwoButton.style.backgroundColor = "#d6476b";
+        cTwoButton.style.width = "80%"
         cThreePopbox.style.display = "none";
         cThreeButton.style.backgroundColor = "#d6476b";
+        cThreeButton.style.width = "80%";
     }
-})
+    })
