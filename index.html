@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -145,12 +144,63 @@
          <div id="flexbox">
             <div id="left-bar"> </div>
             <div id="center-column">
-                <h1 class="glow" >TODAY'S SLAY</h1>
-                <h2 class="glow">Back Bis & Butt</h2>
+                <div class="todays-slay glow" >TODAY'S SLAY</div>
+                <div class="workout-name glow">Back Bis & Butt</div>
                 <div class="workout-info">
                     <div>Time:60min</div>
                     <div> Goals: Build Muscle & Burn Fat</div>
                     <div> Level: Intermediate</div>
+                </div>
+                <div class="circuit-lineup">
+                    <button id="overview-tile">Overview</button>
+                    <div class="popbox over-pop">
+                        <div class="overview-info">This is an overview of all the info for the workout. blah blah blah blah blah</div>
+                        <div class="popbox-charts overview-chart"></div>
+                    </div>
+                    <button id="warmup-tile"> WarmUp</button>
+                    <div class="popbox warm-pop">
+                        <div class="sandwich-info"> This is what the warmup will be like and it's gonna be awesome</div>
+                        <button class="start-video">Start Warmup</button>
+                    </div>
+                    <button id="c1-tile">Circuit 1</button>
+                    <div class="popbox c1-pop">
+                        <div class="circuit1-info">This is ifo about circut1 1. blah blah blah blah blah</div>
+                        <div class=exercise-videos> 
+                            <button>Cable Row Machine</button>
+                            <button>DB Deadlift</button>
+                            <button>DB Hammer Curl</button>
+                            <button>Glute Bridge Heels on DB</button>
+                        </div>
+                        <div class="popbox-charts circuit1-chart"></div>
+                        <button class="start-video">Start Circuit 1</button>
+                    </div>
+                    <button id="c2-tile">Circuit 2</button>
+                    <div class="popbox c2-pop">
+                        <div class="circuit2-info">This is the info about CIRCUIT 2. blah blah blah its gonna be so hard!</div>
+                        <div class="exercise-videos">
+                            <button>Exercise 1</button>
+                            <button>Exercise 2</button>
+                            <button>Exercise 3</button>
+                        </div>
+                        <div class="popbox-charts c2-chart">CHANGE BACKGROUND TO NEW CHART</div>
+                        <button class="start-video">Start Circuit 2</button>
+                    </div>
+                    <button id="c3-tile">Circuit 3</button>
+                    <div class="popbox c3-pop">
+                        <div class="circuit3-info">This is the info about CIRCUIT 3. blah blah blah its gonna be so hard!</div>
+                        <div class="exercise-videos">
+                            <button>Exercise 1</button>
+                            <button>Exercise 2</button>
+                            <button>Exercise 3</button>
+                        </div>
+                        <div class="popbox-charts c3-chart">CHANGE BACKGROUND TO NEW CHART</div>
+                        <button class="start-video">Start Circuit 3</button>
+                    </div>
+                    <button id="cooldown-tile">Cool Down</button>
+                    <div class="popbox cool-pop">
+                        <div class="sandwich-info"> This is what the cooldown will be like and it's gonna be awesome</div>
+                        <button class="start-video">Start Cool Down</button>
+                    </div>
                 </div>
             </div>
             <div id="right-bar"></div>
