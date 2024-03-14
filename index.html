@@ -27,10 +27,9 @@
         </section>
         <section>
             <div id="soundbar">
-                <iframe width="280" height="158" 
+                <iframe 
                 src="https://www.youtube.com/embed/-m18V_oSbEI?si=yQhyOh4OXR9-Dq2X" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;">
                 </iframe>
             </div>
         </section>
@@ -171,7 +170,13 @@
                             <button>Glute Bridge Heels on DB</button>
                         </div>
                         <div class="popbox-charts circuit1-chart"></div>
-                        <button class="start-video">Start Circuit 1</button>
+                        <dialog class="modal" id="modal">
+                            <h6>This is my modal test</h6>
+                            <p>im writing things to test the modal process</p>
+                            <video src="./assets/fitvid.mp4" type="video/mp4" style="width: 100%;"></video>
+                            <button class="end-cOne">Close Window</button>
+                        </dialog>
+                        <button class="start-video start-cOne">Start Circuit 1</button>
                     </div>
                     <button id="c2-tile">Circuit 2</button>
                     <div class="popbox c2-pop">

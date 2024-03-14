@@ -212,3 +212,14 @@ document.querySelector("#cooldown-tile").addEventListener("click", () =>{
         cThreeButton.style.width = "80%";
     }
     })
+
+    const modal = document.querySelector("#modal")
+    const openModal = document.querySelector(".start-cOne");
+    const closeModal = document.querySelector(".end-cOne");
+
+    openModal.addEventListener('click', () =>{
+    modal.showModal();
+    })
+closeModal.addEventListener('click', () =>{
+    modal.close();
+})

@@ -91,7 +91,7 @@ margin-bottom: 10px;
     background-size: contain;
     background-repeat: repeat-x;
     width: 100%;
-    height: 175px;
+    padding-bottom: 15px;
 }
 
 #soundbar iframe{
@@ -412,6 +412,15 @@ margin-bottom: 10px;
         width: auto;
     }
 
+    #modal{
+        position: absolute;
+        width: 80%;
+        height: 100%
+    }
+iframe{
+    width: 280px;
+    height: 158px;
+}
 
 @media only screen and (min-width:500px){
     #glossary .symbol {
@@ -431,7 +440,19 @@ margin-bottom: 10px;
     #center-column h2.glow{
         font-size: 25px;
     }
+
+    iframe{
+        width: 560px;
+        height: 316px;
+    }
 }
+
+
+
+
+
+
+
 @media only screen and ( min-width: 700px){
     .top-left-symbol, .top-right-symbol {
         visibility: visible;
