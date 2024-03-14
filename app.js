@@ -2,15 +2,24 @@ console.log("loaded");
 
 document.querySelector("#symbols").addEventListener("click",(event) => {
    
-    let element = document.querySelector(".definitions");
-
-    if (element.style.maxHeight){
-        element.style.maxHeight = "";
-        document.querySelector(".expander").style.transform = "rotate(180deg)";
+    let definitions = document.querySelector(".definitions");
+    let exOne = document.querySelector(".ex-one");
+    let exTwo = document.querySelector(".ex-two");
+    let expandText = document.querySelector(".expand-text");
+    let exitText = document.querySelector(".exit-text");
+    if (definitions.style.maxHeight){
+        definitions.style.maxHeight = "";
+        exOne.style.transform = "rotatex(0deg)";
+        expandText.style.display = "inline-block";
+        exitText.style.display = "none";
+        exTwo.style.transform = "rotatex(0deg)";
     }
     else{
-        element.style.maxHeight= "2000px";
-        document.querySelector(".expander").style.transform = "rotate(0deg)";
+        definitions.style.maxHeight= "2000px";
+        exOne.style.transform = "rotatex(180deg)";
+        expandText.style.display = "none";
+        exitText.style.display = "inline-block";
+        exTwo.style.transform = "rotatex(-180deg)";
     }
 })
 
@@ -212,6 +221,8 @@ document.querySelector("#cooldown-tile").addEventListener("click", () =>{
         cThreeButton.style.width = "80%";
     }
     })
+
+    //Modal
 
     const modal = document.querySelector("#modal")
     const openModal = document.querySelector(".start-cOne");
